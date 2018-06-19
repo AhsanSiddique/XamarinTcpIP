@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinForms.Client"
+             x:Class="XamarinForms.Client.MainPage">
+    <StackLayout>
+	<Label Text="Connect to Server" 
+           FontSize="Medium"
+           HorizontalOptions="Center" />
+    <Entry x:Name="IPAddress" Placeholder="IP Address"/>
+    <Entry x:Name="Port" Placeholder="Port Number"/>
+    <Button x:Name="Connect" Text="Connect" Clicked="Connect_Clicked"/>
+    </StackLayout>
+</ContentPage>
