@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinForms.Client"
+             x:Class="XamarinForms.Client.OperationsPage">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Button x:Name="Screenshot" Text="Screenshot" Clicked="Screenshot_Clicked"/>
+            <Button x:Name="Sleep" Text="Sleep" Clicked="Sleep_Clicked"/>
+            <Button x:Name="Shutdown" Text="Shutdown" Clicked="Shutdown_Clicked"/>
+            <Image x:Name="imageView"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
