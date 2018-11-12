@@ -556,10 +556,11 @@
   },
   "libraries": {
     "Xamarin.Forms/2.5.0.280555": {
-      "sha512": "JVmozDJQNKEVhN4NG5EiG2IBua0+xK9b+t1L/VUN9HeIXkc8BubZM6UnnE1CftlGt0U2+JGTQSL79uxpx0KCpQ==",
+      "sha512": "O1iSkRd4qdUbCuVwBA6YOzU1PjgwKW1hiAkKWw7tsEXB0g4mTPrQ2mPQw+H3HBlK8pYdKplQ00VWAu6XAT2cvg==",
       "type": "package",
       "path": "xamarin.forms/2.5.0.280555",
       "files": [
+        ".signature.p7s",
         "build/netstandard1.0/Mono.Cecil.Mdb.dll",
         "build/netstandard1.0/Mono.Cecil.Pdb.dll",
         "build/netstandard1.0/Mono.Cecil.Rocks.dll",
@@ -583,18 +584,14 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
-        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Core.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.xml",
         "lib/WP80/Design/Xamarin.Forms.Core.Design.dll",
@@ -754,26 +751,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ahsan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {}
+    "C:\\Users\\asiddique\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ahsan\\source\\repos\\XamarinForms.Client\\XamarinForms.Client.iOS\\XamarinForms.Client.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\asiddique\\Documents\\GitHub\\Xamarin-TCP-IP-Server-Client-Sample\\Xamarin.Forms Client\\XamarinForms.Client\\XamarinForms.Client.iOS\\XamarinForms.Client.iOS.csproj",
       "projectName": "XamarinForms.Client.iOS",
-      "projectPath": "C:\\Users\\Ahsan\\source\\repos\\XamarinForms.Client\\XamarinForms.Client.iOS\\XamarinForms.Client.iOS.csproj",
-      "packagesPath": "C:\\Users\\Ahsan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ahsan\\source\\repos\\XamarinForms.Client\\XamarinForms.Client.iOS\\obj\\",
+      "projectPath": "C:\\Users\\asiddique\\Documents\\GitHub\\Xamarin-TCP-IP-Server-Client-Sample\\Xamarin.Forms Client\\XamarinForms.Client\\XamarinForms.Client.iOS\\XamarinForms.Client.iOS.csproj",
+      "packagesPath": "C:\\Users\\asiddique\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\asiddique\\Documents\\GitHub\\Xamarin-TCP-IP-Server-Client-Sample\\Xamarin.Forms Client\\XamarinForms.Client\\XamarinForms.Client.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Ahsan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        "C:\\Users\\asiddique\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
@@ -785,8 +777,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\Ahsan\\source\\repos\\XamarinForms.Client\\XamarinForms.Client\\XamarinForms.Client.csproj": {
-              "projectPath": "C:\\Users\\Ahsan\\source\\repos\\XamarinForms.Client\\XamarinForms.Client\\XamarinForms.Client.csproj"
+            "C:\\Users\\asiddique\\Documents\\GitHub\\Xamarin-TCP-IP-Server-Client-Sample\\Xamarin.Forms Client\\XamarinForms.Client\\XamarinForms.Client\\XamarinForms.Client.csproj": {
+              "projectPath": "C:\\Users\\asiddique\\Documents\\GitHub\\Xamarin-TCP-IP-Server-Client-Sample\\Xamarin.Forms Client\\XamarinForms.Client\\XamarinForms.Client\\XamarinForms.Client.csproj"
             }
           }
         }
